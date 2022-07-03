@@ -1,16 +1,13 @@
-.menulogo {
-    font size: 26;
+<style>
+.td { /* font-family: 'Roboto'*/
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
 }
-
-.menusmall {
-    font size: 14;
-}
-
-.td + b {
-    font: Roboto;
-    font-size: 18;
-}
+</style>
 
 .td {
+    font-family: 'Roboto';
     font-size: 16;
 }
