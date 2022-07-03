@@ -6,3 +6,11 @@
     font size: 14;
 }
 
+.td + b {
+    font: Roboto;
+    font-size: 18;
+}
+
+.td {
+    font-size: 16;
+}
