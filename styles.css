@@ -1,7 +1,8 @@
-.menu 
-{
-    font-size: 700;
-    font-family: roboto;
-    
-    
+.menulogo {
+    font size: 26;
 }
+
+.menusmall {
+    font size: 14;
+}
+
