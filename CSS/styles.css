@@ -5,12 +5,6 @@ body {
 a {
     text-decoration: none;
 }
-a:hover {
-    color: #2196F3;
-}
-a:focus {
-    color: #2196F3;
-}
 button:hover {
     background-color: #2196F3;
     color: #FFFFFF;
@@ -40,12 +34,26 @@ h2 {
     line-height: 30.52px;
     font-style: normal;
 }
+.menu-logo:hover {
+    color: #2196F3;
+}
+.menu-logo:focus {
+    color: #2196F3;
+    border: none;
+}
 .menu-logo-right {
     color: #212121;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700px;
     line-height: 30.52px;
+}
+.menu-logo-right:hover {
+    color: #2196F3;
+}
+.menu-logo-right:focus {
+    color: #2196F3;
+    border: none;
 }
 .menu-small {
     color: #212121;
@@ -54,12 +62,25 @@ h2 {
     line-height: 16.41px;
     text-decoration: none;
 }
+.menu-small:hover {
+    color: #2196F3;
+}.menu-small:focus {
+    color: #2196F3;
+    border: none;
+}
 .menu-small-contact {
     color: #757575;
     font-size: 14px;
     font-weight: 500px;
     line-height: 16.41px;
     text-decoration: none;
+}
+.menu-small-contact:focus {
+    color: #2196F3;
+}
+.menu-small-contact:hover {
+    color: #2196F3;
+    border: none;
 }
 ul {
     list-style-type: none;
@@ -87,6 +108,13 @@ footer {
     line-height: 30.52px;
     font-style: normal;
 }
+.menu-logo-right-footer:hover {
+    color: #2196F3;
+}
+.menu-logo-right-footer:focus {
+    color: #2196F3;
+    border: none;
+}
 .adres-footer {
     color: #FFFFFF;
     line-height: 16.41px;
@@ -98,6 +126,13 @@ footer {
     line-height: 16.41px;
     font-size: 14px;
     font-style: normal;
+}
+.contact-footer:hover {
+    color: #2196F3;
+}
+.contact-footer:focus {
+    color: #2196F3;
+    border: none;
 }
 .our-team {
     background-color: #F5F4FA;
