@@ -2,18 +2,6 @@ body {
    font-family: Roboto;
    color: #212121;
 }
-a {
-    text-decoration: none;
-}
-button:hover {
-    background-color: #2196F3;
-    color: #FFFFFF;
-}
-button:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
-    border: none;
-}
 h1 {
     color: #FFFFFF;
     background-color: #2F303A;
@@ -25,6 +13,9 @@ h2 {
     font-size: 16px;
     line-height: 16.41px;
 }
+.link {
+    text-decoration: none
+}
 .menu-logo {
     color: #2196F3;
     font-family: Raleway;
@@ -32,6 +23,7 @@ h2 {
     font-weight: 700px;
     line-height: 30.52px;
     font-style: normal;
+    text-decoration: none;
 }
 .menu-logo:hover {
     color: #2196F3;
@@ -46,6 +38,7 @@ h2 {
     font-size: 26px;
     font-weight: 700px;
     line-height: 30.52px;
+    text-decoration: none;
 }
 .menu-logo-right:hover {
     color: #2196F3;
@@ -81,9 +74,6 @@ h2 {
     color: #2196F3;
     border: none;
 }
-ul {
-    list-style-type: none;
-    }
 .main-index-button {
     cursor: pointer;
     background-color: #2196F3;
@@ -100,10 +90,38 @@ ul {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .main-index-button:hover {
-    color:#757575
+    color:#757575;
+    cursor: pointer;
 }
 .main-index-button:focus {
     color: #2196F3;
+}
+.portfolio-list-button {
+    width: 121px;
+    height: 38px;
+    background: #F5F4FA;
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #212121;
+
+    border-radius: 4px;
+    border: none;
+    list-style: none;
+}
+.portfolio-list-button:hover {
+    color: #F5F4FA;
+    background-color: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+.portfolio-list-button:focus{
+    color: #F5F4FA;
+}
+.clean-list {
+    list-style: none;
 }
 .textinbold {
     font-size: 18px;
@@ -124,6 +142,7 @@ footer {
     font-weight: 700px;
     line-height: 30.52px;
     font-style: normal;
+    text-decoration: none;
 }
 .menu-logo-right-footer:hover {
     color: #2196F3;
@@ -137,12 +156,14 @@ footer {
     line-height: 16.41px;
     font-size: 14px;
     font-style: normal;
+    text-decoration: none;
 }
 .contact-footer {
     color: rgba(255, 255, 255, 0.6);
     line-height: 16.41px;
     font-size: 14px;
     font-style: normal;
+    text-decoration: none;
 }
 .contact-footer:hover {
     color: #2196F3;
